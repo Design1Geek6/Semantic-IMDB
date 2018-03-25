@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- 1 - Focus on the HTML and restructure IMDB's 
+        site to use semantic HTML. 
+
+        2 - Justify each tag with and inline comment
+        describing why you have chosen that particular
+        tag/element. 
+
+        3 - Paste a link or your raw XML within this 
+        document to submit it for grading. -->
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <article>
+        <!-- the amazon add at the top is an article because it is a independent portion of the site. -->
+
+        <a href="https://www.amazon.com/dp/B0758274CC?ref=dvm_us_jm_as_imdb_pcqwr32BS">
+            <img src="https://ia.media-imdb.com/images/M/MV5BMTc3ODcwNDg4OF5BMl5BcG5nXkFtZTgwMjQwNTI0NTE@._V1_.png">
+        </a>
+    </article>
+
+    <main>
+        <!-- this <main> tag is defining the main content of the page the above article isn't included because it not part of the main content on the rest of the page-->
+        <nav>
+            <!-- this is labled nav because it has navigation links to get around the site -->
+            <a href="/?ref_=nv_home" title="Home" class="navbarSprite" id="home_img">
+            </a>
+
+            <form method="get" action="/find" class="nav-searchbar-inner" id="navbar-form">
+                <!-- this form descibes this section of the page in side the nav-->
+
+                <div id="nb_search">
+                    <button id="navbar-submit-button" class="primary btn" type="submit">
+                    </button>
+                    <input type="hidden" name="ref_" value="nv_sr_fn">
+                    <input type="text" autocomplete="off" value="" name="q" id="navbar-query" placeholder="Find Movies, TV shows, Celebrities and more...">
+            </form>
+
+            <ul id="consumer_main_nav" class="main_nav">
+                <!-- this defines the menu items in the navigation -->
+                <li class="spacer"></li>
+                <li class="js_nav_item" id="navTitleMenu">
+                </li>
+                <li class="spacer"></li>
+                <li class="js_nav_item" id="navNameMenu">
+                </li>
+                <li class="spacer"></li>
+                <li class="js_nav_item" id="navNewsMenu">
+                </li>
+                <li class="spacer"></li>
+                <li class="js_nav_item" id="navWatchlistMenu">
+                </li>
+                <li class="spacer"></li>
+            </ul>
+        </nav>
+
+        <section>
+            <!-- this would be a section because it is a goup of information with a heading that related to the overal website. -->
+            <h1>From Console to Big Screen: Video Game Movies</h1>
+            <!-- <h1> also give the page semantical meaning because it allows screen readers to know what the importants is of this section -->
+            <img src="">
+            <!-- <img> tag are good for semantics because it can define what a picture is -->
+            <img src="">
+            <img src="">
+            <p>
+                From Max Payne and Resident Evil: Afterlife to Need for Speed, take a look back at the video games that made the leap from
+                the TV screen to the silver screen
+            </p>
+            <a href="">See more video game adaptations</a>
+        </section>
+
+        <section>
+            <!-- this would be a section because it is a goup of information with a heading that related to the overal website. -->
+            <h1>Memorable Reboots and Remakes</h1>
+            <!-- <h1> also give the page semantical meaning because it allows screen readers to know what the importants is of this section -->
+            <img src="">
+            <!-- <img> tag are good for semantics because it can define what a picture is -->
+            <img src="">
+            <img src="">
+            <p>
+                From Max Payne and Resident Evil: Afterlife to Need for Speed, take a look back at the video games that made the leap from
+                the TV screen to the silver screen
+            </p>
+            <a href="">See more video game adaptations</a>
+        </section>
+
+        <section>
+            <!-- this would be a section because it is a goup of information with a heading that related to the overal website. -->
+            <h1>March Movie Madness: Robot Battle Bracket</h1>
+            <!-- <h1> also give the page semantical meaning because it allows screen readers to know what the importants is of this section -->
+            <img src="">
+            <!-- <img> tag are good for semantics because it can define what a picture is -->
+            <img src="">
+            <img src="">
+            <p>
+                From Max Payne and Resident Evil: Afterlife to Need for Speed, take a look back at the video games that made the leap from
+                the TV screen to the silver screen
+            </p>
+            <a href="">See more video game adaptations</a>
+        </section>
+
+        <section>
+            <!-- this would be a section because it is a goup of information with a heading that related to the overal website. -->
+            <h1> Latest News</h1>
+            <!-- <h1> also give the page semantical meaning because it allows screen readers to know what the importants is of this section -->
+            <nav>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </nav>
+            <img src="">
+            <!-- <img> tag are good for semantics because it can define what a picture is -->
+            <article>
+                <!-- this article is in side of the section because it is self-contained content -->
+                <h1>'Black Panther' Tops $600M Domestically While 'I Can Only Imagine' Surprises with $17M Debut</h1>
+                <time>12 hours ago</time>
+                <!-- semantical meaning of this allows for screen readers to know when this was posted-->
+                <p>
+                    For the fifth weekend in a row, Disney and Marvel's Black Panther is the weekend's number one film at the domestic box office,
+                    becoming the first film to accomplish that feat since Avatar in 2009. The film is also only the seventh
+                    film to ever gross over $600 million at the domestic box office as it continues to dominate, now...
+                </p>
+                <a href="">See more</a>
+                <h2>'Black Panther' Tops $600M Domestically While 'I Can Only Imagine' Surprises with $17M Debut</h2>
+                <time>12 hours ago</time>
+                <!-- semantical meaning of this allows for screen readers to know when this was posted-->
+                <a href="">See more</a>
+                <h2>'Black Panther' Tops $600M Domestically While 'I Can Only Imagine' Surprises with $17M Debut</h2>
+                <time>12 hours ago</time>
+                <!-- semantical meaning of this allows for screen readers to know when this was posted-->
+                <a href="">See more</a>
+                <h2>'Black Panther' Tops $600M Domestically While 'I Can Only Imagine' Surprises with $17M Debut</h2>
+                <time>12 hours ago</time>
+                <!-- semantical meaning of this allows for screen readers to know when this was posted-->
+                <a href="">See more</a>
+                <h2>'Black Panther' Tops $600M Domestically While 'I Can Only Imagine' Surprises with $17M Debut</h2>
+                <time>12 hours ago</time>
+                <!-- semantical meaning of this allows for screen readers to know when this was posted-->
+                <a href="">See more</a>
+                <h2>'Black Panther' Tops $600M Domestically While 'I Can Only Imagine' Surprises with $17M Debut</h2>
+                <time>12 hours ago</time>
+                <!-- semantical meaning of this allows for screen readers to know when this was posted-->
+                <a href="">See more</a>
+            </article>
+        </section>
+
+        <section>
+            <!-- this would be a section because it is a goup of information with a heading that related to the overal website. -->
+            <h1>IMDb Snapshot</h1>
+            <!-- <h1> also give the page semantical meaning because it allows screen readers to know what the importants is of this section -->
+            <img src="">
+            <!-- <img> tag are good for semantics because it can define what a picture is -->
+            <a href="">See more video game adaptations</a>
+            <img src="">
+            <a href="">See more video game adaptations</a>
+            <img src="">
+            <a href="">See more video game adaptations</a>
+        </section>
+
+        <section>
+            <!-- this would be a section because it is a goup of information with a heading that related to the overal website. -->
+            <h1>Born today</h1>
+            <img src="">
+            <!-- <img> tag are good for semantics because it can define what a picture is -->
+            <a href="">See more video game adaptations</a>
+            <img src="">
+            <a href="">See more video game adaptations</a>
+            <img src="">
+            <a href="">See more video game adaptations</a>
+            <img src="">
+            <a href="">See more video game adaptations</a>
+            <img src="">
+            <a href="">See more video game adaptations</a>
+        </section>
+
+        <section>
+            <!-- this would be a section because it is a goup of information with a heading that related to the overal website. -->
+            <h1>The movies of Luc Besson</h1>
+            <!-- <h1> also give the page semantical meaning because it allows screen readers to know what the importants is of this section -->
+            <img src="">
+            <!-- <img> tag are good for semantics because it can define what a picture is -->
+            <img src="">
+            <img src="">
+            <p>
+                From Max Payne and Resident Evil: Afterlife to Need for Speed, take a look back at the video games that made the leap from
+                the TV screen to the silver screen
+            </p>
+            <a href="">See more video game adaptations</a>
+        </section>
+
+        <section>
+            <!-- this would be a section because it is a goup of information with a heading that related to the overal website. -->
+            <h1>SXSW Spotlight: Mark Hamill and 'Ready Player One'</h1>
+            <!-- <h1> also give the page semantical meaning because it allows screen readers to know what the importants is of this section -->
+            <p>
+                From Max Payne and Resident Evil: Afterlife to Need for Speed, take a look back at the video games that made the leap from
+                the TV screen to the silver screen
+            </p>
+            <img src="">
+            <!-- <img> tag are good for semantics because it can define what a picture is -->
+            <img src="">
+            <a href="">See more video game adaptations</a>
+        </section>
+
+        <section>
+            <!-- this would be a section because it is a goup of information with a heading that related to the overal website. -->
+            <h1>Our Favorite Basketball Films</h1>
+            <!-- <h1> also give the page semantical meaning because it allows screen readers to know what the importants is of this section -->
+            <p>
+                From Max Payne and Resident Evil: Afterlife to Need for Speed, take a look back at the video games that made the leap from
+                the TV screen to the silver screen
+            </p>
+            <img src="">
+            <!-- <img> tag are good for semantics because it can define what a picture is -->
+            <img src="">
+            <a href="">See more video game adaptations</a>
+        </section>
+
+        <section>
+            <!-- this would be a section because it is a goup of information with a heading that related to the overal website. -->
+            <h1>Trending Movies to Stream on Prime Video</h1>
+            <!-- <h1> also give the page semantical meaning because it allows screen readers to know what the importants is of this section -->
+            <img src="">
+            <!-- <img> tag are good for semantics because it can define what a picture is -->
+            <img src="">
+            <img src="">
+            <img src="">
+            <img src="">
+            <a href="">See more video game adaptations</a>
+        </section>
+
+        <section>
+            <!-- this would be a section because it is a goup of information with a heading that related to the overal website. -->
+            <h1>Recommended For You</h1>
+            <h2>Sign in to rate movies and TV shows on IMDb. We will show your recommendations here.</h2>
+            <!-- <h1> an <h2> also give the page semantical meaning because it allows screen readers to know what the importants is of this section -->
+            <img src="">
+            <!-- <img> tag are good for semantics because it can define what a picture is -->
+            <img src="">
+            <button>
+                Sign in
+            </button>
+        </section>
+
+        <section>
+            <!-- this would be a section because it is a goup of information with a heading that related to the overal website. -->
+            <h1>Poll: Favorite 90s Sitcom</h1>
+            <a href="">More Polls</a>
+            <!-- <h1> also give the page semantical meaning because it allows screen readers to know what the importants is of this section -->
+            <img src="">
+            <!-- <img> tag are good for semantics because it can define what a picture is -->
+            <img src="">
+            <img src="">
+            <img src="">
+            <img src="">
+            <h2>Which of these sitcoms from the 1990s is your favorite? Discuss here after voting.</h2>
+            <a href="">Vote now</a>
+        </section>
+
+        <aside>
+            <!-- this content is set to the side of the page like a sidebar, but still is part of the content-->
+            <h1>IMDb Picks: March</h1>
+            <img src="" alt="">
+            <p>
+                We can't wait to dive into the OASIS when Ready Player One premieres later this month. See which other movies and TV shows
+                we're excited about.
+            </p>
+            <a href=""> Visit IMDb Picks</a>
+        </aside>
+
+        <section>
+            <!-- this would be a section because it is a goup of information with a heading that related to the overal website. -->
+            <h1>Recently Viewed</h1>
+            <!-- <h1> also give the page semantical meaning because it allows screen readers to know what the importants is of this section -->
+            <a href="">Clear your history</a>
+        </section>
+
+        <section>
+            <!-- this would be a section because it is a goup of information with a heading that related to the overal website. -->
+            <h1>IMBd Everywhere</h1>
+           <a href=""><img src="" alt=""></a>
+           <a href=""><img src="" alt=""></a>
+           <a href=""><img src="" alt=""></a>
+           <p>
+           Find showtimes, watch trailers, browse photos, track your Watchlist and rate your favorite movies and TV shows on your phone or tablet!
+           </p>
+        </section>
+
+        <section>
+                <!-- this would be a section because it is a goup of information with a heading that related to the overal website. -->
+                <h1>IMBd Everywhere</h1>
+               <a href=""><img src="" alt=""></a>
+               <a href=""><img src="" alt=""></a>
+               <a href=""><img src="" alt=""></a>
+        </section>
+
+        <nav>
+                <!-- this is labled nav because it has navigation links to get around the site -->
+                <a href="/?ref_=nv_home" title="Home" class="navbarSprite" id="home_img">
+                </a>
+    
+                <form method="get" action="/find" class="nav-searchbar-inner" id="navbar-form">
+                    <!-- this form descibes this section of the page in side the nav-->
+    
+                    <div id="nb_search">
+                        <button id="navbar-submit-button" class="primary btn" type="submit">
+                        </button>
+                        <input type="hidden" name="ref_" value="nv_sr_fn">
+                        <input type="text" autocomplete="off" value="" name="q" id="navbar-query" placeholder="Find Movies, TV shows, Celebrities and more...">
+                </form>
+    
+                <ul id="consumer_main_nav" class="main_nav">
+                    <!-- this defines the menu items in the navigation -->
+                    <li class="spacer"></li>
+                    <li class="js_nav_item" id="navTitleMenu">
+                    </li>
+                    <li class="spacer"></li>
+                    <li class="js_nav_item" id="navNameMenu">
+                    </li>
+                    <li class="spacer"></li>
+                    <li class="js_nav_item" id="navNewsMenu">
+                    </li>
+                    <li class="spacer"></li>
+                    <li class="js_nav_item" id="navWatchlistMenu">
+                    </li>
+                    <li class="spacer"></li>
+                </ul>
+            </nav>
+
+        <footer>
+        <!-- Contains information about the owner and author of the website -->
+        <img src="" alt="">
+        <h1>copyright</h1>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        </footer>
+
+    </main>
+</body>
+
+</html>
